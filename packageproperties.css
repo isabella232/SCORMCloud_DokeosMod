@@ -1,0 +1,16 @@
+body{
+    color:#000000;
+    font-family:arial,verdana,helvetica,sans-serif;
+    font-size:12px;
+    margin-left:0px;
+}
+
+table{font-size:12px;}
+label {font-size:12px;}
+
+.ditch-tab-skin-default .ditch-tab a:link, .ditch-tab-skin-default .ditch-tab a:visited {
+color:#4171B5;
+}
+.ditch-tab-skin-default .ditch-tab-wrap .ditch-unfocused a:link, .ditch-tab-skin-default .ditch-tab-wrap .ditch-unfocused a:visited {
+color:#4171B5;
+}

@@ -1,0 +1,408 @@
+[Mon 10th Aug,2009 11:03 am] - Creating ScormEngineService
+[Mon 10th Aug,2009 11:03 am] - ScormEngineService Created
+[Mon 10th Aug,2009 11:03 am] - Creating CourseService
+[Mon 10th Aug,2009 11:03 am] - CourseService Created
+[Mon 10th Aug,2009 11:03 am] - Getting CourseList
+[Mon 10th Aug,2009 11:03 am] - CourseList count = 8
+[Mon 10th Aug,2009 11:06 am] - Creating ScormEngineService
+[Mon 10th Aug,2009 11:06 am] - ScormEngineService Created
+[Mon 10th Aug,2009 11:06 am] - Creating CourseService
+[Mon 10th Aug,2009 11:06 am] - CourseService Created
+[Mon 10th Aug,2009 11:06 am] - Getting CourseList
+[Mon 10th Aug,2009 11:06 am] - CourseList count = 9
+[Mon 10th Aug,2009 11:06 am] - Creating ScormEngineService
+[Mon 10th Aug,2009 11:06 am] - ScormEngineService Created
+[Mon 10th Aug,2009 11:06 am] - Creating CourseService
+[Mon 10th Aug,2009 11:06 am] - CourseService Created
+[Mon 10th Aug,2009 11:06 am] - Getting CourseList
+[Mon 10th Aug,2009 11:06 am] - CourseList count = 5
+[Mon 10th Aug,2009 11:07 am] - Creating ScormEngineService
+[Mon 10th Aug,2009 11:07 am] - ScormEngineService Created
+[Mon 10th Aug,2009 11:07 am] - Creating CourseService
+[Mon 10th Aug,2009 11:07 am] - CourseService Created
+[Mon 10th Aug,2009 11:07 am] - Getting CourseList
+[Mon 10th Aug,2009 11:07 am] - CourseList count = 3
+[Mon 10th Aug,2009 11:07 am] - Creating ScormEngineService
+[Mon 10th Aug,2009 11:07 am] - ScormEngineService Created
+[Mon 10th Aug,2009 11:07 am] - Creating CourseService
+[Mon 10th Aug,2009 11:07 am] - CourseService Created
+[Mon 10th Aug,2009 11:07 am] - Getting CourseList
+[Mon 10th Aug,2009 11:07 am] - CourseList count = 2
+[Tue 11th Aug,2009 03:15 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 03:15 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 03:15 pm] - Creating CourseService
+[Tue 11th Aug,2009 03:15 pm] - CourseService Created
+[Tue 11th Aug,2009 03:15 pm] - Getting CourseList
+[Tue 11th Aug,2009 03:15 pm] - CourseList count = 3
+[Tue 11th Aug,2009 03:16 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 03:16 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 03:16 pm] - Creating CourseService
+[Tue 11th Aug,2009 03:16 pm] - CourseService Created
+[Tue 11th Aug,2009 03:16 pm] - Getting CourseList
+[Tue 11th Aug,2009 03:16 pm] - CourseList count = 2
+[Tue 11th Aug,2009 03:17 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 03:17 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 03:17 pm] - Creating CourseService
+[Tue 11th Aug,2009 03:17 pm] - CourseService Created
+[Tue 11th Aug,2009 03:17 pm] - Getting CourseList
+[Tue 11th Aug,2009 03:17 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 03:17 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 03:17 pm] - Creating CourseService
+[Tue 11th Aug,2009 03:17 pm] - CourseService Created
+[Tue 11th Aug,2009 03:17 pm] - Getting CourseList
+[Tue 11th Aug,2009 03:17 pm] - CourseList count = 2
+[Tue 11th Aug,2009 03:17 pm] - CourseList count = 2
+[Tue 11th Aug,2009 03:17 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 03:17 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 03:17 pm] - Creating CourseService
+[Tue 11th Aug,2009 03:17 pm] - CourseService Created
+[Tue 11th Aug,2009 03:17 pm] - Getting CourseList
+[Tue 11th Aug,2009 03:17 pm] - CourseList count = 1
+[Tue 11th Aug,2009 06:30 pm] - Creating ScormEngineService
+[Tue 11th Aug,2009 06:30 pm] - ScormEngineService Created
+[Tue 11th Aug,2009 06:30 pm] - Creating CourseService
+[Tue 11th Aug,2009 06:30 pm] - CourseService Created
+[Tue 11th Aug,2009 06:30 pm] - Getting CourseList
+[Tue 11th Aug,2009 06:30 pm] - CourseList count = 2
+[Wed 12th Aug,2009 04:40 pm] - Creating ScormEngineService
+[Wed 12th Aug,2009 04:40 pm] - ScormEngineService Created
+[Wed 12th Aug,2009 04:40 pm] - Creating CourseService
+[Wed 12th Aug,2009 04:40 pm] - CourseService Created
+[Wed 12th Aug,2009 04:40 pm] - Getting CourseList
+[Wed 12th Aug,2009 04:40 pm] - CourseList count = 3
+[Wed 12th Aug,2009 04:47 pm] - Creating ScormEngineService
+[Wed 12th Aug,2009 04:47 pm] - ScormEngineService Created
+[Wed 12th Aug,2009 04:47 pm] - Creating CourseService
+[Wed 12th Aug,2009 04:47 pm] - CourseService Created
+[Wed 12th Aug,2009 04:47 pm] - Getting CourseList
+[Wed 12th Aug,2009 04:47 pm] - CourseList count = 3
+[Wed 12th Aug,2009 04:49 pm] - Creating ScormEngineService
+[Wed 12th Aug,2009 04:49 pm] - ScormEngineService Created
+[Wed 12th Aug,2009 04:49 pm] - Creating CourseService
+[Wed 12th Aug,2009 04:49 pm] - CourseService Created
+[Wed 12th Aug,2009 04:49 pm] - Getting CourseList
+[Wed 12th Aug,2009 04:49 pm] - CourseList count = 3
+[Wed 12th Aug,2009 04:50 pm] - Creating ScormEngineService
+[Wed 12th Aug,2009 04:50 pm] - ScormEngineService Created
+[Wed 12th Aug,2009 04:50 pm] - Creating CourseService
+[Wed 12th Aug,2009 04:50 pm] - CourseService Created
+[Wed 12th Aug,2009 04:50 pm] - Getting CourseList
+[Wed 12th Aug,2009 04:50 pm] - CourseList count = 3
+[Wed 12th Aug,2009 04:53 pm] - Creating ScormEngineService
+[Wed 12th Aug,2009 04:53 pm] - ScormEngineService Created
+[Wed 12th Aug,2009 04:53 pm] - Creating CourseService
+[Wed 12th Aug,2009 04:53 pm] - CourseService Created
+[Wed 12th Aug,2009 04:53 pm] - Getting CourseList
+[Wed 12th Aug,2009 04:53 pm] - CourseList count = 2
+[Thu 13th Aug,2009 02:35 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 02:35 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 02:35 pm] - Creating CourseService
+[Thu 13th Aug,2009 02:35 pm] - CourseService Created
+[Thu 13th Aug,2009 02:35 pm] - Getting CourseList
+[Thu 13th Aug,2009 02:35 pm] - CourseList count = 0
+[Thu 13th Aug,2009 02:36 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 02:36 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 02:36 pm] - Creating CourseService
+[Thu 13th Aug,2009 02:36 pm] - CourseService Created
+[Thu 13th Aug,2009 02:36 pm] - Getting CourseList
+[Thu 13th Aug,2009 02:36 pm] - CourseList count = 0
+[Thu 13th Aug,2009 03:28 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 03:28 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 03:28 pm] - Creating CourseService
+[Thu 13th Aug,2009 03:28 pm] - CourseService Created
+[Thu 13th Aug,2009 03:28 pm] - Getting CourseList
+[Thu 13th Aug,2009 03:28 pm] - CourseList count = 1
+[Thu 13th Aug,2009 03:32 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 03:32 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 03:32 pm] - Creating CourseService
+[Thu 13th Aug,2009 03:32 pm] - CourseService Created
+[Thu 13th Aug,2009 03:32 pm] - Getting CourseList
+[Thu 13th Aug,2009 03:32 pm] - CourseList count = 0
+[Thu 13th Aug,2009 03:36 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 03:36 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 03:36 pm] - Creating CourseService
+[Thu 13th Aug,2009 03:36 pm] - CourseService Created
+[Thu 13th Aug,2009 03:36 pm] - Getting CourseList
+[Thu 13th Aug,2009 03:36 pm] - CourseList count = 1
+[Thu 13th Aug,2009 04:15 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 04:15 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 04:15 pm] - Creating CourseService
+[Thu 13th Aug,2009 04:15 pm] - CourseService Created
+[Thu 13th Aug,2009 04:15 pm] - Getting CourseList
+[Thu 13th Aug,2009 04:15 pm] - CourseList count = 1
+[Thu 13th Aug,2009 04:18 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 04:18 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 04:18 pm] - Creating CourseService
+[Thu 13th Aug,2009 04:18 pm] - CourseService Created
+[Thu 13th Aug,2009 04:18 pm] - Getting CourseList
+[Thu 13th Aug,2009 04:18 pm] - CourseList count = 1
+[Thu 13th Aug,2009 04:59 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 04:59 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 04:59 pm] - Creating CourseService
+[Thu 13th Aug,2009 04:59 pm] - CourseService Created
+[Thu 13th Aug,2009 04:59 pm] - Getting CourseList
+[Thu 13th Aug,2009 04:59 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:00 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:00 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:00 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:00 pm] - CourseService Created
+[Thu 13th Aug,2009 05:00 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:00 pm] - CourseList count = 1
+[Thu 13th Aug,2009 05:00 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:00 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:00 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:00 pm] - CourseService Created
+[Thu 13th Aug,2009 05:00 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:00 pm] - CourseList count = 0
+[Thu 13th Aug,2009 05:03 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:03 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:03 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:03 pm] - CourseService Created
+[Thu 13th Aug,2009 05:03 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:03 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:04 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:04 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:04 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:04 pm] - CourseService Created
+[Thu 13th Aug,2009 05:04 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:04 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:08 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:08 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:08 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:08 pm] - CourseService Created
+[Thu 13th Aug,2009 05:08 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:08 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:08 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:08 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:08 pm] - CourseService Created
+[Thu 13th Aug,2009 05:08 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:08 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:08 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:10 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:10 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:10 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:10 pm] - CourseService Created
+[Thu 13th Aug,2009 05:10 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:10 pm] - CourseList count = 2
+[Thu 13th Aug,2009 05:11 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:11 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:11 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:11 pm] - CourseService Created
+[Thu 13th Aug,2009 05:11 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:11 pm] - CourseList count = 0
+[Thu 13th Aug,2009 05:30 pm] - Creating ScormEngineService
+[Thu 13th Aug,2009 05:30 pm] - ScormEngineService Created
+[Thu 13th Aug,2009 05:30 pm] - Creating CourseService
+[Thu 13th Aug,2009 05:30 pm] - CourseService Created
+[Thu 13th Aug,2009 05:30 pm] - Getting CourseList
+[Thu 13th Aug,2009 05:30 pm] - CourseList count = 1
+[Fri 14th Aug,2009 03:26 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:26 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:26 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:26 pm] - CourseService Created
+[Fri 14th Aug,2009 03:26 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:26 pm] - CourseList count = 2
+[Fri 14th Aug,2009 03:26 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:26 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:26 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:26 pm] - CourseService Created
+[Fri 14th Aug,2009 03:26 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:26 pm] - CourseList count = 1
+[Fri 14th Aug,2009 03:28 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:28 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:28 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:28 pm] - CourseService Created
+[Fri 14th Aug,2009 03:28 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:28 pm] - CourseList count = 2
+[Fri 14th Aug,2009 03:31 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:31 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:31 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:31 pm] - CourseService Created
+[Fri 14th Aug,2009 03:31 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:31 pm] - CourseList count = 2
+[Fri 14th Aug,2009 03:32 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:32 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:32 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:32 pm] - CourseService Created
+[Fri 14th Aug,2009 03:32 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:32 pm] - CourseList count = 2
+[Fri 14th Aug,2009 03:32 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:32 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:32 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:32 pm] - CourseService Created
+[Fri 14th Aug,2009 03:32 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:32 pm] - CourseList count = 2
+[Fri 14th Aug,2009 03:38 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:38 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:38 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:38 pm] - CourseService Created
+[Fri 14th Aug,2009 03:38 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:39 pm] - CourseList count = 3
+[Fri 14th Aug,2009 03:40 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:40 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:40 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:40 pm] - CourseService Created
+[Fri 14th Aug,2009 03:40 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:40 pm] - CourseList count = 3
+[Fri 14th Aug,2009 03:46 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:46 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:46 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:46 pm] - CourseService Created
+[Fri 14th Aug,2009 03:46 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:46 pm] - CourseList count = 4
+[Fri 14th Aug,2009 03:48 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:48 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:48 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:48 pm] - CourseService Created
+[Fri 14th Aug,2009 03:48 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:48 pm] - CourseList count = 4
+[Fri 14th Aug,2009 03:59 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 03:59 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 03:59 pm] - Creating CourseService
+[Fri 14th Aug,2009 03:59 pm] - CourseService Created
+[Fri 14th Aug,2009 03:59 pm] - Getting CourseList
+[Fri 14th Aug,2009 03:59 pm] - CourseList count = 2
+[Fri 14th Aug,2009 04:06 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 04:06 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 04:06 pm] - Creating CourseService
+[Fri 14th Aug,2009 04:06 pm] - CourseService Created
+[Fri 14th Aug,2009 04:06 pm] - Getting CourseList
+[Fri 14th Aug,2009 04:06 pm] - CourseList count = 2
+[Fri 14th Aug,2009 04:06 pm] - Creating ScormEngineService
+[Fri 14th Aug,2009 04:06 pm] - ScormEngineService Created
+[Fri 14th Aug,2009 04:06 pm] - Creating CourseService
+[Fri 14th Aug,2009 04:06 pm] - CourseService Created
+[Fri 14th Aug,2009 04:06 pm] - Getting CourseList
+[Fri 14th Aug,2009 04:06 pm] - CourseList count = 2
+[Tue 18th Aug,2009 11:53 pm] - Creating ScormEngineService
+[Tue 18th Aug,2009 11:53 pm] - ScormEngineService Created
+[Tue 18th Aug,2009 11:53 pm] - Creating CourseService
+[Tue 18th Aug,2009 11:53 pm] - CourseService Created
+[Tue 18th Aug,2009 11:53 pm] - Getting CourseList
+[Tue 18th Aug,2009 11:53 pm] - CourseList count = 6
+[Thu 20th Aug,2009 10:11 am] - Creating ScormEngineService
+[Thu 20th Aug,2009 10:11 am] - ScormEngineService Created
+[Thu 20th Aug,2009 10:11 am] - Creating CourseService
+[Thu 20th Aug,2009 10:11 am] - CourseService Created
+[Thu 20th Aug,2009 10:11 am] - Getting CourseList
+[Thu 20th Aug,2009 10:11 am] - CourseList count = 5
+[Thu 20th Aug,2009 10:15 am] - Creating ScormEngineService
+[Thu 20th Aug,2009 10:15 am] - ScormEngineService Created
+[Thu 20th Aug,2009 10:15 am] - Creating CourseService
+[Thu 20th Aug,2009 10:15 am] - CourseService Created
+[Thu 20th Aug,2009 10:15 am] - Getting CourseList
+[Thu 20th Aug,2009 10:15 am] - CourseList count = 5
+[Thu 20th Aug,2009 10:15 am] - Creating ScormEngineService
+[Thu 20th Aug,2009 10:15 am] - ScormEngineService Created
+[Thu 20th Aug,2009 10:15 am] - Creating CourseService
+[Thu 20th Aug,2009 10:15 am] - CourseService Created
+[Thu 20th Aug,2009 10:15 am] - Getting CourseList
+[Thu 20th Aug,2009 10:15 am] - CourseList count = 5
+[Thu 20th Aug,2009 10:17 am] - Creating ScormEngineService
+[Thu 20th Aug,2009 10:17 am] - ScormEngineService Created
+[Thu 20th Aug,2009 10:17 am] - Creating CourseService
+[Thu 20th Aug,2009 10:17 am] - CourseService Created
+[Thu 20th Aug,2009 10:17 am] - Getting CourseList
+[Thu 20th Aug,2009 10:17 am] - CourseList count = 5
+[Thu 20th Aug,2009 10:19 am] - Creating ScormEngineService
+[Thu 20th Aug,2009 10:19 am] - ScormEngineService Created
+[Thu 20th Aug,2009 10:19 am] - Creating CourseService
+[Thu 20th Aug,2009 10:19 am] - CourseService Created
+[Thu 20th Aug,2009 10:19 am] - Getting CourseList
+[Thu 20th Aug,2009 10:19 am] - CourseList count = 5
+[Thu 20th Aug,2009 02:44 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:44 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:44 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:44 pm] - CourseService Created
+[Thu 20th Aug,2009 02:44 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:44 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:45 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:45 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:45 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:45 pm] - CourseService Created
+[Thu 20th Aug,2009 02:45 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:45 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:51 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:51 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:51 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:51 pm] - CourseService Created
+[Thu 20th Aug,2009 02:51 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:51 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:51 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:51 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:51 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:51 pm] - CourseService Created
+[Thu 20th Aug,2009 02:51 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:51 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:51 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:51 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:51 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:51 pm] - CourseService Created
+[Thu 20th Aug,2009 02:51 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:51 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:52 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:52 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:52 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:52 pm] - CourseService Created
+[Thu 20th Aug,2009 02:52 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:52 pm] - CourseList count = 5
+[Thu 20th Aug,2009 02:53 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 02:53 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 02:53 pm] - Creating CourseService
+[Thu 20th Aug,2009 02:53 pm] - CourseService Created
+[Thu 20th Aug,2009 02:53 pm] - Getting CourseList
+[Thu 20th Aug,2009 02:53 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:01 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:01 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:01 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:01 pm] - CourseService Created
+[Thu 20th Aug,2009 03:01 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:01 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:01 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:01 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:01 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:01 pm] - CourseService Created
+[Thu 20th Aug,2009 03:01 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:01 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:01 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:01 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:01 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:01 pm] - CourseService Created
+[Thu 20th Aug,2009 03:01 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:01 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:03 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:03 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:03 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:03 pm] - CourseService Created
+[Thu 20th Aug,2009 03:03 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:03 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:06 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:06 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:06 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:06 pm] - CourseService Created
+[Thu 20th Aug,2009 03:06 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:06 pm] - CourseList count = 5
+[Thu 20th Aug,2009 03:08 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:08 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:08 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:08 pm] - CourseService Created
+[Thu 20th Aug,2009 03:08 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:08 pm] - CourseList count = 4
+[Thu 20th Aug,2009 03:09 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:09 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:09 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:09 pm] - CourseService Created
+[Thu 20th Aug,2009 03:09 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:09 pm] - CourseList count = 3
+[Thu 20th Aug,2009 03:10 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:10 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:10 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:10 pm] - CourseService Created
+[Thu 20th Aug,2009 03:10 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:10 pm] - CourseList count = 3
+[Thu 20th Aug,2009 03:47 pm] - Creating ScormEngineService
+[Thu 20th Aug,2009 03:47 pm] - ScormEngineService Created
+[Thu 20th Aug,2009 03:47 pm] - Creating CourseService
+[Thu 20th Aug,2009 03:47 pm] - CourseService Created
+[Thu 20th Aug,2009 03:47 pm] - Getting CourseList
+[Thu 20th Aug,2009 03:47 pm] - CourseList count = 3
