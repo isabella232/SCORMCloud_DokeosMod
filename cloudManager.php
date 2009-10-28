@@ -92,9 +92,10 @@ $htmlHeadXtra[] = '
 .manager_table td {padding:2px; height:25px; border-bottom:1px dotted;}
 .tblHeader td {font-weight:bold; font-size:110%; border-bottom:1px solid;}
 .link_disable {color:#A8A7A7;}
-div.row {clear:both; padding-top:8px;}
+div.row {clear:both; padding-top:15px;}
 
-
+#usageFrame {padding:5px;width:90%;border:none;height:300px;}
+.usage {margin-top:20px;}
 
 </style>';
 
@@ -162,7 +163,16 @@ echo '
 </form>
 ';
 
+$appId = api_get_setting('scormCloudCredsId','appId');
+$cssUrl = api_get_path(WEB_PATH).'main/scorm_cloud/cloudsignup.css';
+?>
 
+<div class="row usage">
+		<div class="form_header">SCORM Cloud Usage</div>
+</div>
+<iframe id='usageFrame' src='https://accounts.scorm.com/scorm-cloud-manager/public/usage-meter?appId=<?php echo $appId; ?>&cssurl=<?php echo $cssUrl; ?>'/>
+
+<?php
 
 
 Display::display_footer();

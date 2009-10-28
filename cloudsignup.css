@@ -1,0 +1,25 @@
+
+
+#register_control {color:#000000; font-family:arial,verdana,helvetica,sans-serif; font-size:12px;}
+#register_control input[type="text"] {width:200px;}
+#register_control input[type="password"] {width:200px;}
+#register_control textarea {width:400px !important;height:150px;}
+tr td+td {text-align:right;}
+
+.header {
+	display:none;
+}
+
+#usage_div {
+	color: #555555;
+	font-family: 'Trebuchet MS',Verdana,sans-serif;
+	font-size: 12px;
+}
+
+
+
+.chartImage {
+	border: 1px solid #BBBBBB;
+	padding: 8px;
+}
+
