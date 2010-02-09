@@ -154,7 +154,7 @@ $idx = 1;
 foreach($resultArray as $result)
 {
 $lid = 	$result->getId();
-
+//echo var_dump($result).'<br/>';
 echo "<div class='LaunchPlaceHolder' id='launch_".$result->getId()."' regid='".$regid."'>";
 
 echo "<div class='hide_show_div' >";

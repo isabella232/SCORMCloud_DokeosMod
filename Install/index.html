@@ -50,6 +50,7 @@ body {
   font-family: Verdana, sans-serif;
   font-size: 10pt;
   background-color: #ffffff;
+  color: #000;
 }
 
 
@@ -60,6 +61,8 @@ img {
 @media screen {
   html.pageview {
     background-color: #f3f3f3 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   
@@ -101,16 +104,19 @@ img {
     left: 0;
   }
   
-  
 
   
+    
+    
     .writely-callout-data {
-      display: none;
-      *display: inline-block;
-      *width: 0;
-      *height: 0;
-      *overflow: hidden;
+      display: inline-block;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      margin-left: -1px;
     }
+    
+
     .writely-footnote-marker {
       background-image: url('MISSING');
       background-color: transparent;
@@ -140,101 +146,26 @@ img {
       cursor: move;
     }
 
-    
-    .editor .writely-comment-yellow {
-      background-color: #FF9;
-      background-position: -240px 0;
+    /* Comments */
+    .writely-comment-yellow {
+      background-color: #ffffd7;
     }
-    .editor .writely-comment-yellow-hover {
-      background-color: #FF0;
-      background-position: -224px 0;
+    .writely-comment-orange {
+      background-color: #ffe3c0;
     }
-    .editor .writely-comment-blue {
-      background-color: #C0D3FF;
-      background-position: -16px 0;
+    .writely-comment-pink {
+      background-color: #ffd7ff;
     }
-    .editor .writely-comment-blue-hover {
-      background-color: #6292FE;
-      background-position: 0 0;
+    .writely-comment-green {
+      background-color: #d7ffd7;
     }
-    .editor .writely-comment-orange {
-      background-color: #FFDEAD;
-      background-position: -80px 0;
+    .writely-comment-blue {
+      background-color: #d7ffff;
     }
-    .editor .writely-comment-orange-hover {
-      background-color: #F90;
-      background-position: -64px 0;
-    }
-    .editor .writely-comment-green {
-      background-color: #99FBB3;
-      background-position: -48px 0;
-    }
-    .editor .writely-comment-green-hover {
-      background-color: #00F442;
-      background-position: -32px 0;
-    }
-    .editor .writely-comment-cyan {
-      background-color: #CFF;
-      background-position: -208px 0;
-    }
-    .editor .writely-comment-cyan-hover {
-      background-color: #0FF;
-      background-position: -192px 0;
-    }
-    .editor .writely-comment-purple {
-      background-color: #EBCCFF;
-      background-position: -144px 0;
-    }
-    .editor .writely-comment-purple-hover {
-      background-color: #90F;
-      background-position: -128px 0;
-    }
-    .editor .writely-comment-magenta {
-      background-color: #FCF;
-      background-position: -112px 0;
-    }
-    .editor .writely-comment-magenta-hover {
-      background-color: #F0F;
-      background-position: -96px 0;
-    }
-    .editor .writely-comment-red {
-      background-color: #FFCACA;
-      background-position: -176px 0;
-    }
-    .editor .writely-comment-red-hover {
-      background-color: #FF7A7A;
-      background-position: -160px 0;
+    .writely-comment-purple {
+      background-color: #eed7ff;
     }
 
-    .editor .writely-comment-marker {
-      background-image: url('MISSING');
-      background-color: transparent;
-      padding-right: 11px;
-      background-repeat: no-repeat;
-      width: 16px;
-      height: 16px;
-      -moz-user-select: none;
-    }
-
-    .editor .writely-comment-hidden {
-      padding: 0;
-      background: none;
-    }
-    .editor .writely-comment-marker-hidden {
-      background: none;
-      padding: 0;
-      width: 0;
-    }
-    .editor .writely-comment-none {
-      opacity: .2;
-      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
-      -moz-opacity: .2;
-    }
-    .editor .writely-comment-none-hover {
-      opacity: .2;
-      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);
-      -moz-opacity: .2;
-    }
   
 
 
@@ -354,7 +285,6 @@ ol[type="disc"], ol[type="circle"], ol[type="square"] {
 
 
   /* default print css */
-  
   @media print {
     body {
       padding: 0;
@@ -394,6 +324,14 @@ ol[type="disc"], ol[type="circle"], ol[type="square"] {
       content: counter(pages);
     }
 
+    .endnotes {
+      page: endnote;
+    }
+
+    /* MLA specifies that endnotes title should be 1" margin from the top of the page. */
+    @page endnote {
+      margin-top: 1in;
+    }
 
     callout.google_footnote {
       
@@ -416,6 +354,26 @@ ol[type="disc"], ol[type="circle"], ol[type="square"] {
     #WritelyTableOfContents a {
       text-decoration: none;
       color: black;
+    }
+
+    /* Comments */
+    .writely-comment-yellow {
+      background-color: #ffffd7;
+    }
+    .writely-comment-orange {
+      background-color: #ffe3c0;
+    }
+    .writely-comment-pink {
+      background-color: #ffd7ff;
+    }
+    .writely-comment-green {
+      background-color: #d7ffd7;
+    }
+    .writely-comment-blue {
+      background-color: #d7ffff;
+    }
+    .writely-comment-purple {
+      background-color: #eed7ff;
     }
   }
 
@@ -499,7 +457,7 @@ body {
     Copy your uncompressed scorm_cloud folder into the Dokeos/main folder of your Dokeos system.
   </li>
   <li>
-    Copy the scorm_cloud/lang/english/scorm_cloud.inc.php into the Dokeos/main/lang/english folder (this assumes the installation of Dokeos uses English as the primary language).
+    Copy the scorm_cloud/lang/english/scorm_cloud.inc.php into the Dokeos/main/lang/english folder (this assumes the installation of Dokeos uses English as the primary language).<br>
   </li>
   <li>
     Run the scorm_cloud/db/scorm_cloud.sql script on your main Dokeos mysql database.
@@ -674,7 +632,7 @@ body {
         code: Add the highlighted snippet.<br>
         $language_file[] = 'scorm_cloud';<br>
         <br>
-        <div id=g26: style=TEXT-ALIGN:left>
+        <div id=xj5o style=TEXT-ALIGN:left>
           <img src="images/dcm9bp4g_10c5c828gq_b.jpg" style="WIDTH:398px; HEIGHT:116px">
         </div>
         <br>
@@ -684,15 +642,235 @@ body {
         code: Add the following line around line 315.<br>
         $action_images['cloud']&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = '../scorm_cloud/img/cloud_icon_sm.gif';<br>
         <br>
-        <div id=d98i style=TEXT-ALIGN:left>
-          <img src="images/dcm9bp4g_11nxztq9hf_b.jpg" style="WIDTH:648px; HEIGHT:133.071px">
+        <div id=artb style=TEXT-ALIGN:left>
+          <img src="images/dcm9bp4g_11nxztq9hf_b.jpg" style="WIDTH:648px; HEIGHT:133.071px"><br>
+          <br>
+          <br>
+        </div>
+      </li>
+    </ul>
+    <li>
+      main/myspace/index.php<br>
+      <br>
+      <ul>
+        <li>
+          code: Add the codeblock at line 632.<br>
+          <br>
+          require_once('../scorm_cloud/scorm_cloud.lib.php');
+        </li>
+      </ul>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>$ScormService = cloud_getScormEngineService();<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>$rptService = $ScormService-&gt;getReportingService();<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>$reportageAuth = $rptService-&gt;GetReportageAuth('NONAV', false);<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>$tagSettings = new TagSettings();<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>foreach($a_courses as $course)<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <span class=Apple-tab-span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</span>{<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$tagSettings-&gt;addTag("course",$course['course_code']);&nbsp;<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;}<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      <br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;$sumWidgetSettings = new WidgetSettings(null,$tagSettings,null);<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;$sumWidgetSettings-&gt;setShowTitle(true);<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;$sumWidgetSettings-&gt;setScriptBased(false);<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;$sumWidgetSettings-&gt;setEmbedded(true);<br>
+      <ol>
+        <ol>
+          <ol>
+            <ul>
+            </ul>
+          </ol>
+        </ol>
+      </ol>
+      &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;$sumWidgetSettings-&gt;setIframe(true); echo '&lt;div class="row"&gt;&lt;div class="form_header"&gt;SCORM CLOUD Training Summary&lt;/div&gt;&lt;/div&gt;';
+      <div>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;echo "&lt;iframe id=\"allSummaryFrame\" style=\"width:100%;height:400px;\" src=\"".$rptService-&gt;GetWidgetUrl($reportageAuth,'allSummary',$sumWidgetSettings)."\" scrolling=\"no\" frameborder='0'&gt;&lt;/iframe&gt;";
+      </div>
+      <div>
+        &nbsp;<br>
+        <blockquote class=webkit-indent-blockquote style="MARGIN:0 0 0 40px; BORDER:none">
+          <img src="images/dcm9bp4g_26g9qscjdx_b.jpg" style="WIDTH:648px; HEIGHT:244.109589px">
+        </blockquote>
+      </div>
+      <br>
+    </li>
+    <li>
+      main/tracking/courseLog.php<br>
+      <br>
+      <br>
+    </li>
+    <ul>
+      <li>
+        code: Add the following snippet.<br>
+        <br>
+        require_once('../scorm_cloud/scorm_cloud.lib.php');<br>
+        <br>
+        <div id=sd57 style=TEXT-ALIGN:left>
+          <img src="images/dcm9bp4g_27d6gmvtmj_b.jpg" style="WIDTH:648px; HEIGHT:133.269747px">
         </div>
         <br>
+      </li>
+      <li>
+        code: Add the following snippet. Note the need to remove the '&lt;/tr&gt;' from line 195 (line number could vary).<br>
         <br>
+        if (api_get_setting('enableScormCloud', 'enableScormCloud') == 'true') {<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; echo '&lt;td&gt;';<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; require_once('../scorm_cloud/scorm_cloud.lib.php');<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; $cid = $_REQUEST['cidReq'];<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; if (cloud_isCloudCourse($cid,$lp_id)){<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;echo '&lt;center&gt;&lt;a href="../scorm_cloud/cloudReport_course.php?'.api_get_cidreq().'&amp;lp_id='.$lp_id.'"&gt;&lt;img src="'.api_get_path(WEB_IMG_PATH).'2rightarrow.gif" border="0" /&gt;&lt;/a&gt;&lt;/center&gt;';<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; }<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; echo '&lt;/td&gt;';<br>
+        }<br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+        echo '&lt;/tr&gt;';<br>
+        <br>
+        <div id=ldpx style=TEXT-ALIGN:left>
+          <img src="images/dcm9bp4g_28kn98tdcr_b.jpg" style="WIDTH:648px; HEIGHT:188.184725px">
+        </div>
+        <br>
+      </li>
+      <li>
+        code: Add the following snippet at about line 600.<br>
+        <br>
+        $ScormService = cloud_getScormEngineService();<br>
+        $rptService = $ScormService-&gt;getReportingService();<br>
+        $reportageAuth = $rptService-&gt;GetReportageAuth('NONAV', false);<br>
+        &nbsp;&nbsp; &nbsp;<br>
+        $tagSettings = new TagSettings();<br>
+        $tagSettings-&gt;addTag("course",$_REQUEST['cidReq']);<br>
+        &nbsp;&nbsp; &nbsp;<br>
+        $sumWidgetSettings = new WidgetSettings(null,$tagSettings,null);<br>
+        $sumWidgetSettings-&gt;setShowTitle(true);<br>
+        $sumWidgetSettings-&gt;setScriptBased(false);<br>
+        $sumWidgetSettings-&gt;setEmbedded(true);<br>
+        $sumWidgetSettings-&gt;setIframe(true);<br>
+        echo '&lt;div class="row"&gt;&lt;div class="form_header"&gt;SCORM CLOUD Training Summary&lt;/div&gt;&lt;/div&gt;';<br>
+        echo "&lt;iframe id=\"allSummaryFrame\" style=\"width:100%;height:400px;\" src=\"".$rptService-&gt;GetWidgetUrl($reportageAuth,'allSummary',$sumWidgetSettings)."\" &nbsp;scrolling=\"no\" frameborder='0'&gt;&lt;/iframe&gt;";<br>
+        <br>
+        <br>
+        <div id=m2yy style=TEXT-ALIGN:left>
+          <img src="images/dcm9bp4g_29ftzwj98c_b.jpg" style="WIDTH:648px; HEIGHT:309.289037px">
+        </div>
         <br>
       </li>
     </ul>
   </ol>
 </ol>
+<div>
+  &nbsp;&nbsp;<br>
+  <br>
+</div>
 <br></body>
 </html>

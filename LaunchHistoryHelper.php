@@ -33,6 +33,7 @@ $regService = $ScormService->getRegistrationService();
 $launchResponse = $regService->GetLaunchInfo($launchid);
 
 $launchXml = simplexml_load_string($launchResponse);
+//echo var_dump($launchXml);
 $launch = $launchXml->launch;
 
 $launchInfo = simplexml_load_string("<LaunchInfo/>");

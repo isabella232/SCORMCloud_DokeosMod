@@ -19,7 +19,7 @@ UNLOCK TABLES;
 
 /**/
 
-DROP TABLE IF EXISTS scorm_cloud;
+--DROP TABLE IF EXISTS scorm_cloud;
 CREATE TABLE scorm_cloud (
   course_code varchar(40) NOT NULL,
   lp_id int NOT NULL,

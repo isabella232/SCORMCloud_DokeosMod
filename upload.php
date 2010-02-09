@@ -132,7 +132,7 @@ if(!isset($_REQUEST['action'])){
 		$uploadService = $ScormService->getUploadService();
 		$courseService = $ScormService->getCourseService();
 		// Where the file is going to be placed 
-		$target_path = "uploads/";
+		$target_path = "tmp/uploads/";
 	
 		/* Add the original filename to our target path.  
 		Result is "uploads/filename.extension" */

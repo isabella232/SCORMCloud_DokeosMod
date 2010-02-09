@@ -527,7 +527,7 @@ function mkEmptyActivityState() {
 // use the power of ajax to fetch and render launch reports on demand (on user click)
 function loadReport(reportDiv, reportId, target) {
     var launchId = $(target).attr('id').match(/^launch_(.*)$/)[1];
-
+    //alert(target);
     var requestData = {'launchId':launchId, 
                              'action':'getLaunchInfoXml', 
                              'configuration':extConfigurationString};

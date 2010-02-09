@@ -63,8 +63,12 @@ $interbreadcrumb[] = array ("url" => "../tracking/courseLog.php?cidReq=".$cidReq
 $interbreadcrumb[] = array("url" => "../mySpace/myStudents.php?student=".Security::remove_XSS($_GET['student_id'])."&course=".$cidReq."&details=true&origin=".Security::remove_XSS($_GET['origin']) , "name" => get_lang("DetailsStudentInCourse"));
 $nameTools = get_lang('cloudCourseDetails');
 
+$dataServer = str_replace('EngineWebServices','',api_get_setting('scormCloudCredsUrl','appUrl'));
+
 $htmlHeadXtra[] = '
-<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="'.$dataServer.'/Reportage/css/reportage.css"/>
+<script type="text/javascript" src="'.$dataServer.'/Reportage/scripts/reportage.combined.js"></script>
+<script type="text/javascript" src="http://dev.cloud.scorm.com/Reportage/scripts/jquery.cookie.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
 
@@ -72,16 +76,28 @@ $htmlHeadXtra[] = '
     </script>
 <style>
 
-#column_headers {position:relative; font-weight:bold; border-bottom:1px solid #4171B5; padding: 3px 0px; margin-top:10px;}
+iframe {border:0; height:320px;width:1090px;}
+.reportage div.details_widget {width:100%; font-size:1.5em;}
+.reportage table {border-collapse:collapse;}
+.detailsWrapper {float:left; width:540px;}
+.detailsWrapper.first {margin-right:10px;clear:both;}
+.detailsDiv {margin-top:5px;}
+.instance_info_reg_fields_title, .score_fields_title {font-size:90%;}
+.info_label {font-size:90%;}
+
+.activityReportHeader {font-size:150%; position:relative;}
+.launchHistoryLink {position:absolute; right:25px; top:0px;}
+.launchHistoryLink img {margin-left:10px; vertical-align:top;}
+
+
+/*#column_headers {position:relative; font-weight:bold; border-bottom:1px solid #4171B5; padding: 3px 0px; margin-top:10px;}
 .headertitle {position:relative; width:300px; font-size:110%;}
 .headersatisfied {position:absolute; top:3px; left:350px; font-size:110%;}
 .headercompleted {position:absolute; top:3px; left:450px; font-size:110%;}
 .headerattempts {position:absolute; top:3px; left:550px; font-size:110%;}
 .headersuspended {position:absolute; top:3px; left:625px; font-size:110%;}
 
-.activityReportHeader {font-size:150%; position:relative;}
-.launchHistoryLink {position:absolute; right:25px; top:0px;}
-.launchHistoryLink img {margin-left:10px; vertical-align:top;}
+
 
 .activity{position:relative; width:100%; border-bottom:1px dotted #4171B5; padding-top:5px; margin-bottom:2px;}
 .activityData{width:90%; display:none; border-top:1px dotted #4171B5; padding:5px 20px;}
@@ -127,7 +143,7 @@ td.intLblWidth {width:110px;}
 .passed {color:green;}
 .failed {color:red;}
 .completed {color:green;}
-.incomplete {color:red;}
+.incomplete {color:red;}*/
 
 </style>';
 
@@ -151,6 +167,73 @@ echo "<div class='activityReportHeader'>".get_lang('cloudCourseDetails');
 echo '<div class="launchHistoryLink"><a href="cloudLaunchHistory.php?regid='.$regid.'&course='.$cidReq.'&lp_id='.$lp_id.'&student_id='.$user_id.'">'.get_lang('launchHistoryReport').'<img src="../img/2rightarrow.gif"/></a></div></div>';
 
 
+/** Reportage Report **/
+$tbl_scorm_cloud = Database :: get_main_table('scorm_cloud');
+$sql_cloud_get_course = "Select cloud_course_id from $tbl_scorm_cloud ".
+"WHERE course_code = '$cidReq'  AND lp_id = $lp_id ";
+
+$res = api_sql_query($sql_cloud_get_course, __FILE__, __LINE__);
+if (Database :: num_rows($res) > 0) {
+    $row = Database :: fetch_array($res);
+    $cloud_courseId = $row['cloud_course_id'];
+}
+
+$ScormService = cloud_getScormEngineService();
+$rptService = $ScormService->getReportingService();
+$reportageAuth = $rptService->GetReportageAuth('NONAV', false);
+
+echo '<div class="row">
+		<div class="form_header">Course Summary Report</div>
+</div>';
+
+
+$sumWidgetSettings = new WidgetSettings(null,null,null);
+$sumWidgetSettings->setCourseId($cloud_courseId);
+$sumWidgetSettings->setLearnerId($user_id);
+$sumWidgetSettings->setShowTitle(false);
+$sumWidgetSettings->setScriptBased(false);
+$sumWidgetSettings->setEmbedded(true);
+$sumWidgetSettings->setIframe(true);
+//echo $rptService->GetWidgetUrl($reportageAuth,'learnerSummary',$sumWidgetSettings);
+echo "<iframe id=\"UserSummaryFrame\" src=\"".$rptService->GetWidgetUrl($reportageAuth,'learnerSummary',$sumWidgetSettings)."\"  scrolling=\"no\" frameborder='0'></iframe>";
+
+echo '<div class="detailsWrapper first">';
+
+echo '<div class="row"><div class="form_header">Course Activity Details</div></div>';
+echo '<div id="courseActivities" class="detailsDiv">Loading...</div>';
+$widgetSettings = new WidgetSettings(null,null,null);
+$widgetSettings->setCourseId($cloud_courseId);
+$widgetSettings->setLearnerId($user_id);
+$widgetSettings->setShowTitle(false);
+$widgetSettings->setScriptBased(true);
+$widgetSettings->setEmbedded(true);
+$widgetSettings->setDivname('courseActivities');
+echo '<script type="text/javascript">
+        loadScript("'.$rptService->GetWidgetUrl($reportageAuth,'learnerCourseActivities',$widgetSettings).'");
+    </script>';
+
+echo '</div>';
+
+echo '<div class="detailsWrapper">';
+
+
+echo '<div class="row"><div class="form_header">Interactions</div></div>';
+echo '<div id="learnerInteractions" class="detailsDiv">Loading...</div>';
+$widgetSettings->setDivname('learnerInteractions');
+echo '<script type="text/javascript">
+        loadScript("'.$rptService->GetWidgetUrl($reportageAuth,'learnerCourseInteractionsShort',$widgetSettings).'");
+    </script>';
+
+echo '<div class="row"><div class="form_header">Learner Comments</div></div>';
+echo '<div id="learnerComments" class="detailsDiv">Loading...</div>';
+$widgetSettings->setDivname('learnerComments');
+echo '<script type="text/javascript">
+        loadScript("'.$rptService->GetWidgetUrl($reportageAuth,'learnerCourseComments',$widgetSettings).'");
+    </script>';
+
+echo '</div>';
+
+/*********  Old report
 $ScormService = cloud_getScormEngineService();
 $regService = $ScormService->getRegistrationService();
 //get the full results report
@@ -175,7 +258,7 @@ echo '<div id="column_headers">';
 echo '</div>';
 
 cloud_displayActivity($rootActivity,0,0);
-
+******   *********/
 
 
 Display :: display_footer();

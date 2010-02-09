@@ -40,10 +40,10 @@ require_once('scorm_cloud.lib.php');
         
         
         $ScormService = cloud_getScormEngineService();
-	$regService = $ScormService->getRegistrationService();
+        $regService = $ScormService->getRegistrationService();
 	
         $exitUrl = api_get_path(WEB_PATH).'main/scorm_cloud/RegistrationResults.php?regid='.$regId.'&lp_id='.$lp_id;
-        $launchUrl = $regService->GetLaunchUrl($regId, $exitUrl);
+        $launchUrl = $regService->GetLaunchUrl($regId, $exitUrl,null,null,$cid.',TEST1',"TEST2,TEST3");
         //echo $launchUrl;
         header('location: '.$launchUrl);
         

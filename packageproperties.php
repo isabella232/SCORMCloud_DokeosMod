@@ -66,12 +66,13 @@ $lp_id = $_REQUEST['lp_id'];
 	
 	$tbl_scorm_cloud = Database :: get_main_table('scorm_cloud');
 	$sql_cloud_get_course = "Select cloud_course_id from $tbl_scorm_cloud ".
-	"WHERE course_code = $cid  AND lp_id = $lp_id ";
-	
+	"WHERE course_code = '$cid'  AND lp_id = $lp_id ";
+	//echo $sql_cloud_get_course;
 	$res = api_sql_query($sql_cloud_get_course, __FILE__, __LINE__);
 	if (Database :: num_rows($res) > 0) {
 	    $row = Database :: fetch_array($res);
 	    $cloud_courseId = $row['cloud_course_id'];
+		//echo $cloud_courseId;
 	}
 	
 	$ScormService = cloud_getScormEngineService();
@@ -93,7 +94,7 @@ $lp_id = $_REQUEST['lp_id'];
 		'<span style="font-size:125%;position:relative;top:-5px;margin-left:5px;">'.$title.'</span>';
 	
 	echo "<div style=''>";
-	echo "<iframe src='$url' width='100%' height='450px' frameborder='0' framepadding='0' ></iframe>";
+	echo "<iframe src='$url' width='100%' height='550px' frameborder='0' framepadding='0' ></iframe>";
 	echo "</div>";
 	
 	

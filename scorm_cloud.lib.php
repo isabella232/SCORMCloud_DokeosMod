@@ -54,7 +54,7 @@ function cloud_getCourseScore($cid, $lp_id, $user_id){
     $resXml = simplexml_load_string($resultXmlString);
     
     $scoreVal = $resXml->registrationreport->score;
-    return round((float)$scoreVal*100,2);
+    return round((float)$scoreVal,2);
     
 }
 
